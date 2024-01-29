@@ -6,6 +6,10 @@ android {
     namespace = "com.school.mobileappcuthair"
     compileSdk = 34
 
+    viewBinding{
+        enable = true;
+    }
+
     defaultConfig {
         applicationId = "com.school.mobileappcuthair"
         minSdk = 24
