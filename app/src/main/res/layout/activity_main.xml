@@ -10,55 +10,57 @@
     tools:context=".MainActivity">
 
 
-        <com.google.android.material.bottomappbar.BottomAppBar
-            android:id="@+id/bottom_menu"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:backgroundTint="@color/white"
-            app:fabCradleMargin="10dp"
-            app:fabCradleRoundedCornerRadius="50dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            tools:ignore="BottomAppBar">
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottom_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        app:fabCradleMargin="10dp"
+        app:fabCradleRoundedCornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="BottomAppBar">
 
-            <com.google.android.material.bottomnavigation.BottomNavigationView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginVertical="10dp"
-                android:id="@+id/bottomNavigationView"
-                android:background="@android:color/transparent"
-
-                app:labelVisibilityMode="labeled"
-                app:backgroundTint="@color/white"
-                app:itemActiveIndicatorStyle="@android:color/transparent"
-                app:itemIconTint="@color/primary"
-                app:itemTextColor="@color/primary"
-                app:menu="@menu/bottom_menu" />
-        </com.google.android.material.bottomappbar.BottomAppBar>
-
-        <ImageButton
-            android:id="@+id/imageButton"
-            android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:background="@drawable/button_filled"
-            android:padding="20dp"
-            android:src="@drawable/ic_booking"
-            android:scaleType="fitCenter"
-            android:translationY="40dp"
-            app:layout_constraintBottom_toTopOf="@+id/bottom_menu"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
-
-        <TextView
-            android:id="@+id/textView4"
+        <com.google.android.material.bottomnavigation.BottomNavigationView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Đặt lịch"
-            android:layout_marginTop="10dp"
-            android:textColor="@color/primary"
-            android:fontFamily="@font/inter_medium"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="@+id/bottom_menu"
-            app:layout_constraintStart_toStartOf="@+id/bottom_menu"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+            android:layout_marginVertical="10dp"
+            android:id="@+id/bottomNavigationView"
+            android:background="@android:color/transparent"
+
+            app:labelVisibilityMode="labeled"
+            app:backgroundTint="@color/white"
+            app:itemActiveIndicatorStyle="@android:color/transparent"
+            app:itemIconTint="@color/primary"
+            app:itemTextColor="@color/primary"
+            app:menu="@menu/bottom_menu" />
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/button_filled"
+        android:padding="20dp"
+        android:src="@drawable/ic_booking"
+        android:scaleType="fitCenter"
+        android:translationY="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đặt lịch"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/primary"
+        android:fontFamily="@font/inter_medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/bottom_menu"
+        app:layout_constraintStart_toStartOf="@+id/bottom_menu"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
+

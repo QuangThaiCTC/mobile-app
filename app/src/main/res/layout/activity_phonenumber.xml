@@ -7,7 +7,7 @@
     android:background="@color/gray"
     android:paddingTop="150dp"
     android:orientation="vertical"
-    tools:context=".LoginActivity">
+    tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
@@ -34,31 +34,15 @@
         android:backgroundTint="@color/primary"
         />
 
-    <EditText
-        android:id="@+id/edt_matkhau"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/primary"
-        android:layout_marginBottom="30dp"
-        android:layout_marginHorizontal="50dp"
-        android:textColorHint="@color/primary_tr40"
-        android:padding="10dp"
-        android:hint="Mật khẩu"
-        android:fontFamily="@font/inter_medium"
-        android:backgroundTint="@color/primary"
-        android:inputType="textPassword"
-        />
-
     <Button
-        android:id="@+id/btn_DangNhap"
+        android:id="@+id/btn_Tieptuc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="Tiếp tục"
         android:background="@drawable/button_main"
         android:layout_marginHorizontal="50dp"
-        android:text="Đăng nhập"
         android:textColor="@color/primary"
-        android:fontFamily="@font/inter_extra_bold"
-        />
+        android:fontFamily="@font/inter_extra_bold"/>
 
     <TextView
         android:id="@+id/btn_QuenMK"

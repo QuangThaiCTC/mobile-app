@@ -10,6 +10,7 @@ android {
         enable = true;
     }
 
+
     defaultConfig {
         applicationId = "com.school.mobileappcuthair"
         minSdk = 24
